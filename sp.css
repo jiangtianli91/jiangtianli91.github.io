@@ -50,6 +50,12 @@ pre, code, samp, kbd {
 pre, code, kbd {
   color: #050;
 }
+p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
 samp {
   color: #730;
 }
