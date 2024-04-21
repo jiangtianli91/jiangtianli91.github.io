@@ -84,6 +84,20 @@ th, td {
   padding: 0.3em 0.4em;
   text-align: left;
 }
+.profile-container {
+    display: flex;
+    align-items: center; /* This will vertically align the items in the middle */
+}
+
+.profile-links {
+    margin-left: 50px; /* This adds some space between the image and the list */
+    list-style: none; /* This removes the default list bullet points */
+    padding: 0; /* This resets any default padding on the list */
+}
+
+.profile-links li {
+    /* Add any specific styles for your list items here */
+}
 @media (prefers-color-scheme: dark) {
   body {
     background: #111;
@@ -118,3 +132,4 @@ th, td {
     border-color: #666;
   }
 }
+
