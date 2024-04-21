@@ -90,7 +90,7 @@ th, td {
 }
 
 .profile-links {
-    margin-left: 50px; /* This adds some space between the image and the list */
+    margin-left: 20px; /* This adds some space between the image and the list */
     list-style: none; /* This removes the default list bullet points */
     padding: 0; /* This resets any default padding on the list */
 }
