@@ -6,54 +6,67 @@ iframe {
     height: 90vh;
     width: 100%;
 }
-
-h2 {
-  color: #25355A
-} 
 </style>
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KS4VKVSQRP"></script>
-<script>
-      window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS4VKVSQRP"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-KS4VKVSQRP');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jiangtian Li's Homepage</title>
-<link rel="stylesheet" href="sp.css">
-<head>
+            gtag('config', 'G-KS4VKVSQRP');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiangtian Li's Homepage</title>
+    <!-- <link rel="stylesheet" href="sp.css"> -->
+    <link rel="stylesheet" href="simple.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Computer+Modern+Serif:wght@400;700&display=swap" rel="stylesheet">
 </head>
-</head>
-<body>
-    <h1>Jiangtian Li</h1>
-    <div class="profile-container">
-        <img src="profile.jpg" alt="Jiangtian Li" style="width: 200px; height: 200px;">
-        <ul class="profile-links">
-            <li><a href="jiangtianli91@gmail.com" target="_blank">Jiangtianli91@gmail.com</a></li>
-            <li><a href="https://twitter.com/alucardkoten" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/jiangtianli91" target="_blank">Github</a></li>
-            <li><a href="https://orcid.org/0000-0001-7546-270X" target="_blank">ORCID</a></li>
-        </ul>
-    </div>
 
+<body>
+<header>
+  <nav>
+    <a href="#about-me">About Me</a>
+    <a href="#cv">CV</a>
+  </nav>
+
+  <div>
+    <h1 style="margin-top: 0;">Jiangtian Li</h1>
+    <p>Postdoctoral Fellow in Linguistics, University of Toronto</p>
+  </div>
+
+</header>
+
+<main>
+
+  <aside style="padding: 1.5rem;">
+    <img src="profile.jpg" alt="Jiangtian Li">
+
+    <p style="line-height: 1.7;">
+      <a href="mailto:jiangtianli91@gmail.com">jiangtianli91@gmail.com</a><br>
+      <a href="https://twitter.com/alucardkoten" target="_blank">Twitter</a><br>
+      <a href="https://github.com/jiangtianli91" target="_blank">GitHub</a><br>
+      <a href="https://orcid.org/0000-0001-7546-270X" target="_blank">ORCID</a>
+    </p>
+  </aside>
     
-    <h2>About Me</h2>
+  <div>
+    
+    <h3 id="about-me">About Me</h3>
     <p>
         I am a postdoctoral fellow in the Department of Linguistics at the University of Toronto. My research focuses on polysemy—how a single word can express multiple, related meanings—and combines philosophical analysis, computational modeling, and behavioral experiments. I also pursue work in philosophy of science and meta-science, examining how generalization from unrepresentative data can bias the findings in research. Together, my research aim to build a unified, philosophically grounded, empirically sound, and computationally explicit account of word meaning.
     </p>
+    <p><b>Areas of specialization</b>: Semantics and Pragmatics in Philosophy of Language, Psycholinguistics, Computational Linguistics</p>
 
-    <h3>Academic trajectory</h3>
+    <h4>Academic trajectory</h4>
     <p>
         My academic trajectory reflects this integrative goal. Trained originally in philosophy of language, I developed a deep interest in how meaning depends on context, focusing on the semantics–pragmatics boundary. To challenge the semantic minimalist view that words have context-invariant, truth-conditional meanings, I have argued for the continuous nature of polysemous words, whose senses form a graded semantic space rather than a finite list of discrete definitions, as in a dictionary.
     </p>
-
     <p>
         This philosophical foundation led me to psycholinguistics, where I began testing the context-sensitivity of word meaning experimentally, and later to computational linguistics, where I modeled polysemy using AI-based language models. In this work, I demonstrated the continuity of polysemy by representing word senses as mixtures of Gaussian distributions, and later extended this approach to examine the law-like principles underlying the regular patterns of word senses in both adult representation and child language development.
     </p>
@@ -65,10 +78,10 @@ h2 {
     <p>
         Beyond my research on language, I also bring together philosophical and scientific perspectives to examine methodological issues of generalization from sampled stimuli in cognitive research. In my meta-scientific work, I study how unreliable or unrepresentative stimulus samples can bias findings in cognitive science, and how such biases inform both the philosophical debate about induction and the scientific practices of open and reproducible research.
     </p>
-    <p><b>Areas of specialization</b>: Semantics and Pragmatics in Philosophy of Language, Psycholinguistics, Computational Linguistics</p>
 
-    <h2>CV</h2>
+    <h3 id="cv">CV</h2>
     <iframe src="jli_cv.pdf"></iframe>
+  </div>
 
 </body>
 </html>
